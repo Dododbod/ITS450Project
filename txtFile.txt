@@ -1,0 +1,29 @@
+
+
+string email1 = fakeEmail@fakeServer
+
+
+Download Script/EXE to run mass email distribution
+Open website @ http://10.0.0.218/
+
+open srv/mywebsite/emails.txt(change to whatever desired)
+(Make sure it has R/W privs)
+
+string emailBody = 
+
+Good morning!
+Centier bank has noticed some unusual activity!
+
+Click here ->  http://10.0.0.218/
+
+
+String email = email;
+for(int i; i<nextLine; i++)
+{
+	email.add(i);
+	if(nextLine == true)
+	{
+		ssmtp email body;(change to format)
+	}
+}
+
